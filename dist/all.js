@@ -1,8 +1,7 @@
-"use strict";
+'use strict';
 
-var tony = 9;
-var car = function car(num) {
-  return num + num;
-};
-car(tony);
-console.log(car(tony));
+$(function () {
+  $(window).on('load resize', function () {
+    $('.top-background-img').css('height', window.innerHeight);
+  });
+});

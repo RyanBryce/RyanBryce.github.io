@@ -13,7 +13,7 @@ var cbpAnimatedHeader = (function() {
 	var docElem = document.documentElement,
 		header = document.querySelector( '.cbp-af-header' ),
 		didScroll = false,
-		changeHeaderOn = 50;
+		changeHeaderOn = 110;
 
 	function init() {
 		scrollPage();
