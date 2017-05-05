@@ -1,15 +1,55 @@
+body {
+  display: block; }
+
+.my-pic {
+  max-width: 150px;
+  max-height: 150px; }
+  @media screen and (min-width: 768px) {
+    .my-pic {
+      max-width: 200px;
+      max-height: 200px; } }
+  @media screen and (min-width: 992px) {
+    .my-pic {
+      max-width: 250px;
+      max-height: 250px; } }
+
 .navbar {
   padding: 30px 15px;
   transition: all 0.5s; }
 
 .cbp-af-header-shrink {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   opacity: 0.9; }
+
+.typed-info {
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 0px; }
+  @media screen and (min-width: 768px) {
+    .typed-info {
+      text-align: justify;
+      padding-top: 100px; } }
 
 .top-background-img {
   background-size: cover;
   background-position: center; }
 
 .filler {
-  height: 300px; }
+  position: relative;
+  font-size: 25px;
+  font-weight: 400;
+  color: #e6e6e6;
+  top: 35%; }
+
+.social-icons {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 2px;
+  position: absolute; }
+  @media screen and (min-width: 768px) {
+    .social-icons {
+      padding-top: 25px; } }
+  @media screen and (min-width: 992px) {
+    .social-icons {
+      padding-top: 50px; } }

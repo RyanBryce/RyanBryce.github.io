@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/styles.css">
     <meta charset="utf-8">
-    <title>Ryan's Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./dist/styles.css">
+    <title>Ryan Bryce</title>
   </head>
-  <header>
-    <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Ryan's Portfolio</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-  </header>
 
-  <body class="">
-    <!-- <img src="./img/wolf_creek1.jpg" alt="" class="img-responsive"> -->
-
-    <div class="container-">
-      <div class="row">
-        <div class="top-background-img" style="background-image:url(./img/wolf_creek1.jpg)">
-          <div class="col-xs-12">
-
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ryan Bryce</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
           </div>
         </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="top-background-img" style="background-image:url(./img/wolf_creek1.jpg)">
+          <div class="filler col-sm-12">
+            <div class="col-sm-4 col-sm-offset-2 text-center">
+              <img src="https://pbs.twimg.com/profile_images/820457701813518337/VmhyKoOz.jpg" alt="" class="img-rounded my-pic">
+              <div class="social-icons">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i><br>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i><br>
+                <i class="fa fa-github-square" aria-hidden="true"></i><br>
+              </div>
+
+            </div>
+            <div class="col-sm-6 typed-info">
+              <div class="">
+                Full Stack Development Using <br>
+                <span class="element"></span>
+              </div>
+            </div>
+        </div>
       </div>
-      <!-- <div class="" style="height:125px; background-color:red;">
-        filler
-      </div> -->
+      <div class="" style="height:600px;">
 
-    </div><!-- /.container -->
+      </div>
+    </div>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./dist/all.js" charset="utf-8"></script>
     <script src="./scripts/classie.js"></script>
     <script src="./scripts/cbpAnimatedHeader.js"></script>
-    <!-- <script>
-    $(() => {
-      $(window).on('load resize', () => {
-        $('.top-background-img').css('height', window.innerHeight)
-      })
-    })
-    </script> -->
+    <script src="./scripts/typed.js"></script>
   </body>
 </html>
