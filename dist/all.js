@@ -5,6 +5,9 @@ $(function () {
     $('.top-background-img').css('height', window.innerHeight);
   });
 });
+$(".result").hover(function () {
+  $(this).toggleClass("result_hover");
+});
 
 document.addEventListener('DOMContentLoaded', function () {
   Typed.new('.element', {

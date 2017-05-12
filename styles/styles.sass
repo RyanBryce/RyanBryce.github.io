@@ -1,15 +1,35 @@
+$fullStack: #C5946C
+$colorOne: #434F1D
+
+
 body
   display: block
 
 .my-pic
+  position: relative
   max-width: 150px
   max-height: 150px
+  border-radius: 75px
   @media screen and (min-width: 768px)
     max-width: 200px
     max-height: 200px
+    border-radius: 100px
   @media screen and (min-width: 992px)
-    max-width: 250px
-    max-height: 250px
+    max-width: 260px
+    max-height: 260px
+    border-radius: 130px
+    border: 10px solid white
+    bottom: 5px
+
+.full-stack-color
+  color: darken(complement($fullStack), 5%)
+
+.fa-icon-down
+  position: relative
+  top: 575px
+  color: #fff
+  &:hover
+    cursor: pointer
 
 .navbar
   padding: 30px 15px
@@ -43,10 +63,51 @@ body
 
 .social-icons
   display: inline-flex
+  height: 100%
   flex-direction: column
   padding-top: 2px
   position: absolute
   @media screen and (min-width: 768px)
     padding-top: 25px
   @media screen and (min-width: 992px)
-    padding-top: 50px
+    padding-top: 25px
+    width: 50px
+
+
+.social-icon-one
+  position: relative
+  padding-right: 30px
+  padding-top: 15px
+  right: 45px
+  div
+    background-color: cornflowerblue
+    height: 40px
+    width: 40px
+    border-radius: 20px
+    i
+      padding-top: 8px
+
+.social-icon-two
+  position: relative
+  padding-top: 30px
+  right: 25px
+  div
+    background-color: cornflowerblue
+    height: 40px
+    width: 40px
+    border-radius: 20px
+    i
+      padding-top: 8px
+
+.social-icon-three
+  position: relative
+  padding-right: 30px
+  padding-top: 30px
+  right: 45px
+  div
+    background-color: cornflowerblue
+    height: 40px
+    width: 40px
+    border-radius: 20px
+    i
+      padding-top: 8px
