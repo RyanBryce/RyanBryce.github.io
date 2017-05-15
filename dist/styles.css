@@ -1,16 +1,19 @@
 body {
-  display: block; }
+  display: block;
+  width: 100%; }
 
 .my-pic {
   position: relative;
   max-width: 150px;
   max-height: 150px;
-  border-radius: 75px; }
+  border-radius: 75px;
+  border: 10px solid white; }
   @media screen and (min-width: 768px) {
     .my-pic {
       max-width: 200px;
       max-height: 200px;
-      border-radius: 100px; } }
+      border-radius: 100px;
+        border-radius-border: 10px solid white; } }
   @media screen and (min-width: 992px) {
     .my-pic {
       max-width: 260px;
@@ -24,8 +27,9 @@ body {
 
 .fa-icon-down {
   position: relative;
-  top: 575px;
-  color: #fff; }
+  top: 45%;
+  color: #fff;
+  height: 50px; }
   .fa-icon-down:hover {
     cursor: pointer; }
 
@@ -43,6 +47,10 @@ body {
   padding-top: 0px;
   padding-left: 0px; }
   @media screen and (min-width: 768px) {
+    .typed-info {
+      text-align: justify;
+      padding-top: 65px; } }
+  @media screen and (min-width: 992px) {
     .typed-info {
       text-align: justify;
       padding-top: 100px; } }
@@ -75,7 +83,6 @@ body {
 .social-icon-one {
   position: relative;
   padding-right: 30px;
-  padding-top: 15px;
   right: 45px; }
   .social-icon-one div {
     background-color: cornflowerblue;
@@ -84,11 +91,24 @@ body {
     border-radius: 20px; }
     .social-icon-one div i {
       padding-top: 8px; }
+  @media screen and (min-width: 992px) {
+    .social-icon-one {
+      position: relative;
+      padding-right: 30px;
+      padding-top: 15px;
+      right: 45px; }
+      .social-icon-one div {
+        background-color: cornflowerblue;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px; }
+        .social-icon-one div i {
+          padding-top: 8px; } }
 
 .social-icon-two {
   position: relative;
-  padding-top: 30px;
-  right: 25px; }
+  right: 25px;
+  padding-top: 10px; }
   .social-icon-two div {
     background-color: cornflowerblue;
     height: 40px;
@@ -96,11 +116,26 @@ body {
     border-radius: 20px; }
     .social-icon-two div i {
       padding-top: 8px; }
+  @media screen and (min-width: 768px) {
+    .social-icon-two {
+      padding-top: 15px; } }
+  @media screen and (min-width: 992px) {
+    .social-icon-two {
+      position: relative;
+      padding-top: 30px;
+      right: 25px; }
+      .social-icon-two div {
+        background-color: cornflowerblue;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px; }
+        .social-icon-two div i {
+          padding-top: 8px; } }
 
 .social-icon-three {
   position: relative;
   padding-right: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   right: 45px; }
   .social-icon-three div {
     background-color: cornflowerblue;
@@ -109,3 +144,31 @@ body {
     border-radius: 20px; }
     .social-icon-three div i {
       padding-top: 8px; }
+  @media screen and (min-width: 768px) {
+    .social-icon-three {
+      padding-top: 15px; } }
+  @media screen and (min-width: 992px) {
+    .social-icon-three {
+      position: relative;
+      padding-right: 30px;
+      padding-top: 30px;
+      right: 45px; }
+      .social-icon-three div {
+        background-color: cornflowerblue;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px; }
+        .social-icon-three div i {
+          padding-top: 8px; } }
+
+.express-fix {
+  padding-top: 25px;
+  padding-bottom: 15px; }
+
+.massive-fix {
+  padding-top: 15px;
+  padding-bottom: 13px; }
+
+.sass-fix {
+  padding-top: 7px;
+  padding-bottom: 7px; }

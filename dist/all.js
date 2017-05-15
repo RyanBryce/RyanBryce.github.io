@@ -11,7 +11,7 @@ $(".result").hover(function () {
 
 document.addEventListener('DOMContentLoaded', function () {
   Typed.new('.element', {
-    strings: ["HTML5.", "CSS3.", "SASS.", "LESS.", "JavaScript.", "jQuery.", "AngularJS.", "NodeJS.", "Express JS.", "MassiveJS.", "SQL.", "PostgreSQL."],
+    strings: ["HTML5.", "CSS3.", "SASS.", "LESS.", "JavaScript.", "jQuery.", "AngularJS.", "Bootstrap3.", "NodeJS.", "NPM.", "Express JS.", "MassiveJS.", "SQL.", "PostgreSQL.", "React."],
     typeSpeed: 50,
     startDelay: 500,
     backSpeed: 35,
