@@ -3,6 +3,7 @@ $colorOne: #434F1D
 
 
 body
+  position: relative
   display: block
   width: 100%
 .my-pic
@@ -24,13 +25,13 @@ body
     bottom: 5px
 
 .full-stack-color
-  color: darken(complement($fullStack), 5%)
+  color: white
 
 .fa-icon-down
-  position: relative
-  top: 45%
+  position: absolute
+  bottom: 45px
   color: #fff
-  height: 50px
+  width: 100%
   &:hover
     cursor: pointer
 
@@ -90,8 +91,10 @@ body
     height: 40px
     width: 40px
     border-radius: 20px
-    i
+    a
       padding-top: 8px
+      color: white
+      text-decoration: none
   @media screen and (min-width: 992px)
     position: relative
     padding-right: 30px
@@ -102,8 +105,10 @@ body
       height: 40px
       width: 40px
       border-radius: 20px
-      i
+      a
         padding-top: 8px
+        color: white
+        text-decoration: none
 
 .social-icon-two
   position: relative
@@ -114,8 +119,11 @@ body
     height: 40px
     width: 40px
     border-radius: 20px
-    i
+    a
       padding-top: 8px
+      color: white
+      text-decoration: none
+
   @media screen and (min-width: 768px)
     padding-top: 15px
   @media screen and (min-width: 992px)
@@ -127,8 +135,10 @@ body
       height: 40px
       width: 40px
       border-radius: 20px
-      i
+      a
         padding-top: 8px
+        color: white
+        text-decoration: none
 
 .social-icon-three
   position: relative
@@ -140,8 +150,10 @@ body
     height: 40px
     width: 40px
     border-radius: 20px
-    i
+    a
       padding-top: 8px
+      color: white
+      text-decoration: none
   @media screen and (min-width: 768px)
     padding-top: 15px
   @media screen and (min-width: 992px)
@@ -154,9 +166,15 @@ body
       height: 40px
       width: 40px
       border-radius: 20px
-      i
+      a
         padding-top: 8px
+        color: white
+        text-decoration: none
 
+// .skills-section
+//   padding-top: 50px
+//   padding-bottom: 50px
+//
 .express-fix
   padding-top: 25px
   padding-bottom: 15px

@@ -4,6 +4,10 @@ $(function () {
   $(window).on('load resize', function () {
     $('.top-background-img').css('height', window.innerHeight);
   });
+  $('body').scrollspy({
+    target: '.navbar',
+    offset: 150
+  });
 });
 $(".result").hover(function () {
   $(this).toggleClass("result_hover");

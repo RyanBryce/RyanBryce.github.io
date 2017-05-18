@@ -23,13 +23,13 @@ body {
       bottom: 5px; } }
 
 .full-stack-color {
-  color: #5a91be; }
+  color: white; }
 
 .fa-icon-down {
-  position: relative;
-  top: 45%;
+  position: absolute;
+  bottom: 45px;
   color: #fff;
-  height: 50px; }
+  width: 100%; }
   .fa-icon-down:hover {
     cursor: pointer; }
 
@@ -89,8 +89,10 @@ body {
     height: 40px;
     width: 40px;
     border-radius: 20px; }
-    .social-icon-one div i {
-      padding-top: 8px; }
+    .social-icon-one div a {
+      padding-top: 8px;
+      color: white;
+      text-decoration: none; }
   @media screen and (min-width: 992px) {
     .social-icon-one {
       position: relative;
@@ -102,8 +104,10 @@ body {
         height: 40px;
         width: 40px;
         border-radius: 20px; }
-        .social-icon-one div i {
-          padding-top: 8px; } }
+        .social-icon-one div a {
+          padding-top: 8px;
+          color: white;
+          text-decoration: none; } }
 
 .social-icon-two {
   position: relative;
@@ -114,8 +118,10 @@ body {
     height: 40px;
     width: 40px;
     border-radius: 20px; }
-    .social-icon-two div i {
-      padding-top: 8px; }
+    .social-icon-two div a {
+      padding-top: 8px;
+      color: white;
+      text-decoration: none; }
   @media screen and (min-width: 768px) {
     .social-icon-two {
       padding-top: 15px; } }
@@ -129,8 +135,10 @@ body {
         height: 40px;
         width: 40px;
         border-radius: 20px; }
-        .social-icon-two div i {
-          padding-top: 8px; } }
+        .social-icon-two div a {
+          padding-top: 8px;
+          color: white;
+          text-decoration: none; } }
 
 .social-icon-three {
   position: relative;
@@ -142,8 +150,10 @@ body {
     height: 40px;
     width: 40px;
     border-radius: 20px; }
-    .social-icon-three div i {
-      padding-top: 8px; }
+    .social-icon-three div a {
+      padding-top: 8px;
+      color: white;
+      text-decoration: none; }
   @media screen and (min-width: 768px) {
     .social-icon-three {
       padding-top: 15px; } }
@@ -158,8 +168,10 @@ body {
         height: 40px;
         width: 40px;
         border-radius: 20px; }
-        .social-icon-three div i {
-          padding-top: 8px; } }
+        .social-icon-three div a {
+          padding-top: 8px;
+          color: white;
+          text-decoration: none; } }
 
 .express-fix {
   padding-top: 25px;
