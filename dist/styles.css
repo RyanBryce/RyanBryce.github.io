@@ -182,14 +182,22 @@ body {
           color: white;
           text-decoration: none; } }
 
+.skills-section {
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
+.skills-section-icons {
+  max-width: 50px;
+  padding-top: 15px; }
+
 .express-fix {
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 15px; }
 
 .massive-fix {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 13px; }
 
 .sass-fix {
-  padding-top: 7px;
+  padding-top: 20px;
   padding-bottom: 7px; }

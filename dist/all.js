@@ -47,7 +47,10 @@ $(function () {
     verticalOffset: 0,
     horizontalOffset: 0
   });
+  new WOW().init();
 });
+// WOW.JS CONSTRUCTOR FUNC
+
 document.addEventListener('DOMContentLoaded', function () {
   Typed.new('.element', {
     strings: ["HTML5.", "CSS3.", "SASS.", "LESS.", "JavaScript.", "jQuery.", "AngularJS.", "Bootstrap3.", "NodeJS.", "NPM.", "Express JS.", "MassiveJS.", "SQL.", "PostgreSQL.", "React."],
