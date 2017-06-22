@@ -47,9 +47,11 @@ $(function () {
     verticalOffset: 0,
     horizontalOffset: 0
   });
+
+  // WOW.JS CONSTRUCTOR FUNC
+
   new WOW().init();
 });
-// WOW.JS CONSTRUCTOR FUNC
 
 document.addEventListener('DOMContentLoaded', function () {
   Typed.new('.element', {
