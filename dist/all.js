@@ -15,7 +15,7 @@ $(function () {
     offset: 50
   });
 
-  //smooth scrolling, not dry though :(
+  //smooth scrolling
 
   $(document).on('click', 'a[href^="#"]', function (e) {
     // target element id
@@ -47,8 +47,7 @@ $(function () {
     horizontalOffset: 0
   });
 
-  // WOW.JS CONSTRUCTOR FUNC
-
+  // WOW.JS constructor func
   new WOW().init();
 });
 
