@@ -17,25 +17,24 @@ $(function () {
 
   //smooth scrolling, not dry though :(
 
-  $(".nav-home").click(function () {
-    $("html, body").animate({
-      scrollTop: $('#home').offset().top -= 50
-    }, 1000);
-  });
-  $(".nav-skills").click(function () {
-    $("html, body").animate({
-      scrollTop: $('#skills').offset().top -= 50
-    }, 1000);
-  });
-  $(".nav-projects").click(function () {
-    $("html, body").animate({
-      scrollTop: $('#projects').offset().top -= 50
-    }, 1000);
-  });
-  $(".nav-about").click(function () {
-    $("html, body").animate({
-      scrollTop: $('#about').offset().top -= 49
-    }, 1000);
+  $(document).on('click', 'a[href^="#"]', function (e) {
+    // target element id
+    var id = $(this).attr('href');
+
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+      return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = $id.offset().top -= 50;
+
+    // animated top scrolling
+    $('body, html').animate({ scrollTop: pos }, 1250);
   });
   $(".result").hover(function () {
     $(this).toggleClass("result_hover");

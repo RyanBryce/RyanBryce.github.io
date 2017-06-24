@@ -204,7 +204,11 @@ body {
   padding-bottom: 7px; }
 
 .about-me {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  background-color: #fff6ed; }
   .about-me div {
     font-size: 20px;
     font-weight: 400; }
+
+.footer-section a {
+  color: #272727; }
