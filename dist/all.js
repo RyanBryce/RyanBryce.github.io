@@ -36,6 +36,11 @@ $(function () {
     // animated top scrolling
     $('body, html').animate({ scrollTop: pos }, 1250);
   });
+  $(".nav-skills").click(function () {
+    $("html, body").animate({
+      scrollTop: $('#skills').offset().top -= 50
+    }, 1000);
+  });
   $(".result").hover(function () {
     $(this).toggleClass("result_hover");
   });
