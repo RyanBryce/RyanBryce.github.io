@@ -58,6 +58,7 @@ body {
       padding-top: 100px; } }
 
 .top-background-img {
+  height: 100vh;
   position: relative;
   background-size: cover;
   background-attachment: fixed;
