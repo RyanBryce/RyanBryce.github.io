@@ -4,9 +4,9 @@ $(function () {
 
   //dynamic background img resize
 
-  $(window).on('load resize', function () {
-    $('.top-background-img').css('height', window.innerHeight);
-  });
+  // $(window).on('load resize', () => {
+  //   $('.top-background-img').css('height', window.innerHeight);s
+  // });
 
   //bootsrap scrollspy
 
