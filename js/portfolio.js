@@ -2,9 +2,9 @@ $(() => {
 
   //dynamic background img resize
 
-  // $(window).on('load resize', () => {
-  //   $('.top-background-img').css('height', window.innerHeight);s
-  // });
+  $(window).on('load resize', () => {
+    $('.top-background-img').css('height', window.innerHeight);s
+  });
 
   //bootsrap scrollspy
 
