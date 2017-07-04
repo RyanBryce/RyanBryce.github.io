@@ -59,7 +59,6 @@ body {
 
 .top-background-img {
   height: 100vh;
-  position: relative;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
