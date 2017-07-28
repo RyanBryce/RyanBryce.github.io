@@ -1,9 +1,16 @@
-$(() => {
+$(function () {
 
   //dynamic background img resize
 
-  $(window).on('load resize', () => {
-    $('.top-background-img').css('height', window.innerHeight);
+  $(window).on('load resize', function() {
+    console.log(window.innerWidth, window.screen.width);
+    if (window.screen.width <= 768) {
+      $('.top-background-img').css('height', window.screen.height);
+    }else if (window.innerWidth <= 768) {
+      $('.top-background-img').css('height', window.innerHeight);
+    }else {
+      $('.top-background-img').css('height', window.innerHeight);
+    }
   });
 
   //bootsrap scrollspy
@@ -38,7 +45,7 @@ $(() => {
     $("html, body").animate({
       scrollTop: $('#skills').offset().top -= 50,
     }, 1000);
-  })
+  });
   $(".result").hover(function () {
     $(this).toggleClass("result_hover");
   });
@@ -54,7 +61,7 @@ $(() => {
 
   // WOW.JS constructor func
   new WOW().init();
-})
+});
 
 document.addEventListener('DOMContentLoaded', function(){
   Typed.new('.element', {

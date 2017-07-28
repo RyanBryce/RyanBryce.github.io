@@ -4,9 +4,16 @@ $(function () {
 
   //dynamic background img resize
 
-  // $(window).on('load resize', () => {
-  //   $('.top-background-img').css('height', window.innerHeight);s
-  // });
+  $(window).on('load resize', function () {
+    console.log(window.innerWidth, window.screen.width);
+    if (window.screen.width <= 768) {
+      $('.top-background-img').css('height', window.screen.height);
+    } else if (window.innerWidth <= 768) {
+      $('.top-background-img').css('height', window.innerHeight);
+    } else {
+      $('.top-background-img').css('height', window.innerHeight);
+    }
+  });
 
   //bootsrap scrollspy
 
